@@ -1,7 +1,82 @@
-vendor
-cov.xml
-.vscode
+# Mac OS X hidden files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.ssh
+
+# Vim swap files
+.*.sw?
+
+# PhpStorm
 .idea
-.php-cs-fixer.cache
+*.meta.*
+_ide_*
+*.iws
+/.phpstorm.meta.php
+/_ide_helper*
+
+# vs code
+.vscode
+*.code-workspace
+.history/
+.history
+.ionide
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Distribution & Deploy
+/public/hot
+/public/storage
+/public/css
+/public/js
+/public/images
+/public/fonts
+/public/icons
+/public/vendor
+/public/mix-manifest.json
+/public/sitemap.xml
+/cgi-bin
+/.well-known
+.htaccess
+!/public/.htaccess
+error_log
+.ftpquota
+/storage/*.key
+
+# Composer
+/vendor
+
+# Environment
+.env*
+!.env.example*
+
+# PHPUnit & Pest
+.phpunit-watcher-cache.php
 .phpunit.result.cache
-.phpunit.cache
+/phpunit.xml.bak
+
+# Docker
+docker-compose.override.yml
+
+# Homestead & Vagrant
+Homestead.json
+Homestead.yaml
+/.vagrant
+
+# Code style
+/tools/php-cs-fixer/vendor
+.php_cs.cache
+.editorconfig
+
+# Deploy scripts
+Envoy*
+envoy-*.blade.php
+
+/doc
