@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5bd35b41b238bdd45c19ac299b8bc25",
+    "content-hash": "352fbaa0a920c479c5c331e2c16607e6",
     "packages": [
         {
             "name": "mdurrant/php-binary-reader",
@@ -3824,7 +3824,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1"
+        "php": "^8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

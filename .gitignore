@@ -51,7 +51,7 @@ error_log
 /storage/*.key
 
 # Composer
-/vendor
+vendor
 
 # Environment
 .env*
@@ -61,6 +61,7 @@ error_log
 .phpunit-watcher-cache.php
 .phpunit.result.cache
 /phpunit.xml.bak
+.phpunit.cache
 
 # Docker
 docker-compose.override.yml

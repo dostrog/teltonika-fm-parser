@@ -3,7 +3,7 @@
     "description": "Teltonika FMXXXX parser library",
     "type": "library",
     "require": {
-        "php": ">=8.1",
+        "php": "^8.2",
         "mdurrant/php-binary-reader": "^1.0"
     },
     "require-dev": {
